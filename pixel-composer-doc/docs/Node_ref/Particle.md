@@ -1,5 +1,10 @@
+# Particle
+
 ## Particle
+
 Generate particle effect from input surfaces.
+
+![](../img/nodes/node_particle.png)
 
 | Inputs              | Type               | Description                                                  |
 | ------------------- | ------------------ | ------------------------------------------------------------ |
@@ -29,9 +34,37 @@ Generate particle effect from input surfaces.
 | Particle data | Particles | Data used for effector. |
 
 ## Particle sampler
+
 Just like particle nodes. But each particle now sample surface from a given surface when it spawned.
+
+![](../img/nodes/node_particle_sampler.png)
 
 | Inputs         | Type    | Description                   |
 | -------------- | ------- | ----------------------------- |
 | Sample surface | Surface | Surface to sample from.       |
 | Particle shape | Surface | Shape of the particle (alpha) |
+
+## Particle Effector
+
+Particle effector takes in particle data, and manipulate them using different algorithm. Allowing you to modify particle after spawn.
+
+![](../img/nodes/node_particle_effector.png)
+
+| Inputs           | Type     | Description                                                  |
+| ---------------- | -------- | ------------------------------------------------------------ |
+| Particle data    | Particle | Particle to affect.                                          |
+| Output dimension | Float    | Output size.                                                 |
+| Area             | Float[5] | Area of effect.                                              |
+| Falloff          | Curve    | How effect got weaker near the edge of the area.             |
+| Falloff distance | Float    | Width of the falloff.                                        |
+| Effect type      | Int      | Type of effect.<br />- Wind: push particle in area in one direction.<br />- Attract: pull all particle to center.<br />- Repel: push particle out of the center.<br />- Vortex: rotate the particle around center. |
+| Strength         | Float[2] | Strength of the effect.                                      |
+| Effect Vector    | Float[2] | Direction of the force.                                      |
+| Effect rotation  | Float    | Rotate the affected particle.                                |
+| Effect scale     | Float[2] | Scale the affected particle.                                 |
+
+| Outputs       | Type     | Description    |
+| ------------- | -------- | -------------- |
+| Surface out   | Surface  | Image output.  |
+| Particle data | Particle | Particle data. |
+
