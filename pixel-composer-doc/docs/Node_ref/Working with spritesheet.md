@@ -1,7 +1,12 @@
-This post shows you how to work with sprite sheet in Pixel Composer.
+# Working with sprite sheet
+
+Sprite sheet is a single sprite that contain multiple sprites tiled inside. These nodes deal with preparing and creating sprite sheet.
 
 ## Splicing sprite sheet
+
 This node takes in a sprite sheet, cuts it into smaller sprites, and outputs an array or animation. 
+
+![](../img/nodes/node_splice.png)
 
 | Inputs          | Type    | Description                                            |
 | --------------- | ------- | ------------------------------------------------------ |
@@ -20,7 +25,10 @@ This node takes in a sprite sheet, cuts it into smaller sprites, and outputs an 
 | Surface out | Surface | Sprite output. |
 
 ## Export sprite sheet
+
 This node packs surface or surface array into one sprite sheet.
+
+![](../img/nodes/node_render_sprite_sheet.png)
 
 | Inputs       | Type               | Description                                                  |
 | ------------ | ------------------ | ------------------------------------------------------------ |
@@ -35,5 +43,5 @@ This node packs surface or surface array into one sprite sheet.
 | ----------- | ------- | ------------- |
 | Surface out | Surface | Sprite sheet. |
 
-Sprite sheet node does not update automatically. That means to run this node, you have to click the [refresh] icon in the inspector panel. Also if the sprite set is set to animation, then you have to play the animation to start filling the sprite sheet.
+Sprite sheet node does not update automatically. That means to run this node, you have to click the ![](../img/01_p0_refresh.png) icon in the inspector panel. Also if the sprite set is set to animation, then you have to play the animation to start filling the sprite sheet.
 

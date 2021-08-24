@@ -10,7 +10,6 @@ nav:
   - 'Node reference':
     - 'Node_ref/Import-Export Image(s).md'
     - 'Node_ref/Working with spritesheet.md'
-    - 'Node_ref/Mesh warp.md'
     - 'Node_ref/Distortion.md'
     - 'Node_ref/Coloring.md'
     - 'Node_ref/3D.md'
