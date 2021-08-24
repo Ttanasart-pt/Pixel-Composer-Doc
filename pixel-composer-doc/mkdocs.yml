@@ -2,3 +2,9 @@ site_name: Pixel Composer Documentation
 
 theme:
   name: 'rtd-dropdown'
+
+nav:
+  - "index.md"
+  - "ui.md"
+  - 'Node':
+    - 'node1.md'
