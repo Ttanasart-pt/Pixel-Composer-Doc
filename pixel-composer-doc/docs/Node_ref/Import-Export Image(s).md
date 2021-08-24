@@ -1,11 +1,16 @@
 # Import-Export Image(s)
+
 ​This tutorial will go through types of images, and the nodes that use to import, export them.
 
 ## Import nodes
+
 Image in Pixel Composer sometimes called surface. 
 
 ### Image
+
 Image node represent a single image file.
+
+![](../img/nodes/node_image.png)
 
 | Inputs  | Type   | Description                           |
 | ------- | ------ | ------------------------------------- |
@@ -15,10 +20,13 @@ Image node represent a single image file.
 | Outputs     | Type    | Description    |
 | ----------- | ------- | -------------- |
 | Surface out | Surface | Image output.  |
-| Paths       | String  | Path to image. |
+| Path        | String  | Path to image. |
 
 ### Image array node
+
 ​Image array represents multiple images in one junction. Most nodes process all images inside an array which allow you to edit multiple images at the same time.
+
+![](../img/nodes/node_image_array.png)
 
 | Inputs        | Type   | Description                                                  |
 | ------------- | ------ | ------------------------------------------------------------ |
@@ -33,7 +41,10 @@ Image node represent a single image file.
 | Paths       | String[]  | Array of paths. |
 
 ### Image animation node
+
 ​Image animation takes in a string of multiple paths, then output only one image depending on the current frame.
+
+![](../img/nodes/node_image_animation.png)
 
 | Inputs         | Type    | Description                                                  |
 | -------------- | ------- | ------------------------------------------------------------ |
@@ -48,7 +59,10 @@ Image node represent a single image file.
 | Surface out | Surface[] | Image array. |
 
 ## Export node
+
 ​Export node allow you to save image(s) as .png file(s).
+
+![](../img/nodes/node_export.png)
 
 | Inputs   | Type               | Description                 |
 | -------- | ------------------ | --------------------------- |
@@ -58,8 +72,14 @@ Image node represent a single image file.
 | Animated | Boolean            | Export animation.           |
 
 ### Suffix format
+
 - **%f**  Current frame number.
+- **%i**  Image index number (in array).
+- **%d**  Path directory.
+- **%n**  File name (without extension).
+- **%e**  File extension.
 
 ### Exporting
-​Export node does not update automatically. That means to run this node, you have to click the [refresh] icon in the inspector panel to start exporting.
+
+​Export node does not update automatically. That means to run this node, you have to click the ![](../img/01_p0_refresh.png) icon in the inspector panel to start exporting.
 
