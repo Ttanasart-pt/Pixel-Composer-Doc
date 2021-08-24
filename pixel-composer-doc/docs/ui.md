@@ -1,10 +1,14 @@
 # UI
-Welcome to Pixel Composer. In this post we're looking at the basic of Pixel Composer user interface.
 
-Pixel Composer is divided into panels. These are all the panels and what it does.
+Pixel Composer is divided into panels.
+
+![panels overview](img/00_p0_interface.png)
+
+When you click inside the panel, you will set focus on that panel. A focusing panel will have orange outline. Some keyboard shortcuts are context sensitive and will only trigger when a corresponding panel is focusing.
 
 ## Preview
-Preview panel display the content of the previewing node.
+
+Preview panel display the content of the previewing node. You can preview node by double clicking at the node in graph panel (or press p while focusing on graph panel)
 
 | Operations              | Actions           |
 | :---------------------- | ----------------- |
@@ -14,9 +18,12 @@ Preview panel display the content of the previewing node.
 | Save preview as...      | **Shift + S**     |
 | Set previewing node     | Double click      |
 
-​When previewing image array. Extra control will appear which allow you to preview each image or play array as an animation.
+​When previewing image array. Extra controls will appear which allow you to preview each image or play all images as an animation.
+
+![preview_array](img/00_p1_preview_array.png)
 
 ## Graph
+
 ​Graph show all nodes in current context.
 
 | Operations              | Actions           |
@@ -29,8 +36,17 @@ Preview panel display the content of the previewing node.
 | Group                   | **G**             |
 | Ungroup                 | **Shift + G**     |
 
+### Graph context
+
+When working with complex effect. You can group multiple nodes into node group. Double click on node group will change the graph context to that group and the context navigator will appear on top.
+
+![context](img/00_p2_graph_context.png)
+
 ## Inspector
+
 Inspector show properties of the focusing node. Inside inspector also contain timeline at the bottom.
+
+![inspector](img/00_p4_inspector.png)
 
 | Operations               | Actions         |
 | ------------------------ | --------------- |
@@ -42,8 +58,8 @@ Inspector show properties of the focusing node. Inside inspector also contain ti
 | Go to first frame        | **Home**        |
 | Go to last frame         | **End**         |
 
-​When you're looking inside node group. A context panel will appear on top allowing you to go back to upper context.  
-
 ## Collections
-​Collection panel (toggle from panel > collections) show all node base and node collection (pre-made nodes, node group) and allowing you to add collection into current project.
 
+![inspector](img/00_p3_collection.png)
+
+​Collection panel (toggle from panel > collections) show all node collection (pre-made nodes, node group) allowing you to add collection into current project by draging a collection and drop onto graph panel.

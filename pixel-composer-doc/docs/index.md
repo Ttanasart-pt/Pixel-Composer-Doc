@@ -9,3 +9,6 @@ Pixel Composer is a node base VFX software for pixel art. With Pixel Composer, y
 - Download .zip file at [makham.itch.io](https://makham.itch.io/pixel-composer).
 - Extract the file.
 - Run Pixels Composer.exe.
+
+## Wiki guides
+- In actions table, keys in **bold** are rebindable in preference.
