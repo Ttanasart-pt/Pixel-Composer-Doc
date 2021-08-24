@@ -1,7 +1,8 @@
 site_name: Pixel Composer Documentation
 
 theme:
-  name: 'rtd-dropdown'
+    name: null
+    custom_dir: 'theme\'
 
 nav:
   - "index.md"
