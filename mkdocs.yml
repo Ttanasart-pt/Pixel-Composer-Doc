@@ -1,8 +1,8 @@
 site_name: Pixel Composer Documentation
 
 theme:
-    name: "readthedocs"
-    custom_dir: 'theme\'
+    name: null
+    custom_dir: 'custom-theme\'
 
 nav:
   - "index.md"
