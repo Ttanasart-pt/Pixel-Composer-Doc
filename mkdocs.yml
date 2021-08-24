@@ -1,7 +1,6 @@
 site_name: Pixel Composer Documentation
 
 theme:
-    name: null
     custom_dir: 'theme\'
 
 nav:
