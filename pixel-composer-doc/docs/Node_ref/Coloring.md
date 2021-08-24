@@ -1,5 +1,10 @@
+# Coloring
+
 ## Colorize
+
 Remap greyscale pixel with user defined gradient.
+
+![](../img/nodes/node_colorize.png)
 
 | Inputs     | Type     | Description      |
 | ---------- | -------- | ---------------- |
@@ -11,7 +16,10 @@ Remap greyscale pixel with user defined gradient.
 | Surface out | Surface | Image output. |
 
 ## Posterize
+
 Average color in an image into palette.
+
+![](../img/nodes/node_posterize.png)
 
 | Inputs     | Type    | Description    |
 | ---------- | ------- | -------------- |
@@ -23,7 +31,10 @@ Average color in an image into palette.
 | Surface out | Surface | Image output. |
 
 ## Dither
+
 Apply dither effect.
+
+![](../img/nodes/node_dither.png)
 
 | Inputs     | Type    | Description        |
 | ---------- | ------- | ------------------ |
