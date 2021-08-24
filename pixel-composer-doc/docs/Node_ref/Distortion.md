@@ -24,6 +24,8 @@ Displace node shift the pixel around according to the brightness (or red and gre
 
 ## Texture remap
 
+![](../img/05_p1_texture_remap.png)
+
 Texture remap use red and green channel to remap X,Y position of the image.
 
 ![](../img/nodes/node_texture_remap.png)
@@ -38,6 +40,8 @@ Texture remap use red and green channel to remap X,Y position of the image.
 | Surface out | Surface | Image output. |
 
 ## Time remap
+
+![](../img/05_p2_time_remap.png)
 
 Time remap use greyscale map to displace image from the previous frames. The brighter the color is, the more delay.
 
