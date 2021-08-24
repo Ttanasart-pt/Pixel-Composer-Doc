@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome to Pixel Composer
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Pixel Composer is a node base VFX software for pixel art. With Pixel Composer, you can build complex animated visual effect procedurally.
 
-## Commands
+![screenshot1](img/screenshots/cards.gif)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Download and installations
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Download .zip file at [makham.itch.io](https://makham.itch.io/pixel-composer).
+- Extract the file.
+- Run Pixels Composer.exe.
