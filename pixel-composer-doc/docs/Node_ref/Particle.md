@@ -1,5 +1,4 @@
 ## Particle
-
 Generate particle effect from input surfaces.
 
 | Inputs              | Type               | Description                                                  |
@@ -30,7 +29,6 @@ Generate particle effect from input surfaces.
 | Particle data | Particles | Data used for effector. |
 
 ## Particle sampler
-
 Just like particle nodes. But each particle now sample surface from a given surface when it spawned.
 
 | Inputs         | Type    | Description                   |

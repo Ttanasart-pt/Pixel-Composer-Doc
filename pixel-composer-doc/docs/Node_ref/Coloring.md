@@ -1,5 +1,4 @@
 ## Colorize
-
 Remap greyscale pixel with user defined gradient.
 
 | Inputs     | Type     | Description      |
@@ -12,7 +11,6 @@ Remap greyscale pixel with user defined gradient.
 | Surface out | Surface | Image output. |
 
 ## Posterize
-
 Average color in an image into palette.
 
 | Inputs     | Type    | Description    |
@@ -25,7 +23,6 @@ Average color in an image into palette.
 | Surface out | Surface | Image output. |
 
 ## Dither
-
 Apply dither effect.
 
 | Inputs     | Type    | Description        |

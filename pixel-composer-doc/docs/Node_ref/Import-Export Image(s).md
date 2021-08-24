@@ -1,40 +1,24 @@
 # Import-Export Image(s)
-
-​	This tutorial will go through types of images, and the nodes that use to import, export them.
+​This tutorial will go through types of images, and the nodes that use to import, export them.
 
 ## Import nodes
-
-​	Image in Pixel Composer sometimes called surface. 
+Image in Pixel Composer sometimes called surface. 
 
 ### Image
-
-
-
-
-
-​	Image node represent a single image file.
+Image node represent a single image file.
 
 | Inputs  | Type   | Description                           |
 | ------- | ------ | ------------------------------------- |
 | Path    | String | Path to an image.                     |
 | Padding | Int[4] | Extra pixels added in each direction. |
 
-​	
-
 | Outputs     | Type    | Description    |
 | ----------- | ------- | -------------- |
 | Surface out | Surface | Image output.  |
 | Paths       | String  | Path to image. |
 
-
-
 ### Image array node
-
-
-
-
-
-​	Image array represents multiple images in one junction. Most nodes process all images inside an array which allow you to edit multiple images at the same time.
+​Image array represents multiple images in one junction. Most nodes process all images inside an array which allow you to edit multiple images at the same time.
 
 | Inputs        | Type   | Description                                                  |
 | ------------- | ------ | ------------------------------------------------------------ |
@@ -42,23 +26,14 @@
 | Padding       | Int[4] | Extra pixels added in each direction.                        |
 | Canvas size   | Int    | If the images have different dimensions.<br />- **Individual**: Do nothing.<br />- **Minimum**: Use minimum size.<br />- **Maximum**: Use maximum size. |
 | Sizing method | Int    | If the images have different dimensions.<br />- **Padding / Crop**: Do nothing<br />- **Scale**: Scaling image to fit the canvas. |
-
-​	
-
+​
 | Outputs     | Type      | Description     |
 | ----------- | --------- | --------------- |
 | Surface out | Surface[] | Image array.    |
 | Paths       | String[]  | Array of paths. |
 
-
-
 ### Image animation node
-
-
-
-
-
-​	Image animation takes in a string of multiple paths, then output only one image depending on the current frame.
+​Image animation takes in a string of multiple paths, then output only one image depending on the current frame.
 
 | Inputs         | Type    | Description                                                  |
 | -------------- | ------- | ------------------------------------------------------------ |
@@ -68,21 +43,12 @@
 | Frame duration | Int     | Duration (in frame) of each image.                           |
 | Animation end  | Int     | When animation ends.<br />- **Loop**: Loop animation<br />- **Ping pong**: Inverse animation<br />- **Hold last frame**: Stop animation<br />- **Hide**: Hide frame |
 
-
-
 | Outputs     | Type      | Description  |
 | ----------- | --------- | ------------ |
 | Surface out | Surface[] | Image array. |
 
-
-
 ## Export node
-
-
-
-
-
-​	Export node allow you to save image(s) as .png file(s).
+​Export node allow you to save image(s) as .png file(s).
 
 | Inputs   | Type               | Description                 |
 | -------- | ------------------ | --------------------------- |
@@ -91,13 +57,9 @@
 | Suffix   | String             | Text added after each path. |
 | Animated | Boolean            | Export animation.           |
 
-​	
-
 ### Suffix format
-
 - **%f**  Current frame number.
 
 ### Exporting
-
-​	Export node does not update automatically. That means to run this node, you have to click the [refresh] icon in the inspector panel to start exporting.
+​Export node does not update automatically. That means to run this node, you have to click the [refresh] icon in the inspector panel to start exporting.
 

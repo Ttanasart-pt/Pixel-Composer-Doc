@@ -1,5 +1,4 @@
 ## Particle Effector
-
 Particle effector takes in particle data, and manipulate them using different algorithm. Allowing you to modify particle after spawn.
 
 | Inputs           | Type     | Description                                                  |

@@ -1,7 +1,6 @@
 This pose will cover some interesting distortion nodes.
 
 ## Displace
-
 Displace node shift the pixel around according to the brightness (or red and green channel) of the displace map.
 
 | Inputs           | Type     | Description                               |
@@ -19,7 +18,6 @@ Displace node shift the pixel around according to the brightness (or red and gre
 | Surface out | Surface | Image output. |
 
 ## Texture remap
-
 Texture remap use red and green channel to remap X,Y position of the image.
 
 | Inputs     | Type    | Description       |
@@ -32,7 +30,6 @@ Texture remap use red and green channel to remap X,Y position of the image.
 | Surface out | Surface | Image output. |
 
 ## Time remap
-
 Time remap use greyscale map to displace image from the previous frames. The brighter the color is, the more delay.
 
 | Inputs     | Type    | Description                   |
